@@ -165,7 +165,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 abbr[title] {
@@ -3222,7 +3222,7 @@ textarea.form-control-lg {
   --bs-dropdown-spacer: 0.125rem;
   --bs-dropdown-font-size: 1rem;
   --bs-dropdown-color: #212529;
-  --bs-dropdown-bg: #fff;
+  --bs-dropdown-bg: #bb3838;
   --bs-dropdown-border-color: var(--bs-border-color-translucent);
   --bs-dropdown-border-radius: 0.375rem;
   --bs-dropdown-border-width: 1px;
@@ -3491,7 +3491,7 @@ textarea.form-control-lg {
 
 .dropdown-menu-dark {
   --bs-dropdown-color: #dee2e6;
-  --bs-dropdown-bg: #343a40;
+  --bs-dropdown-bg: #2876c4;
   --bs-dropdown-border-color: var(--bs-border-color-translucent);
   --bs-dropdown-box-shadow: ;
   --bs-dropdown-link-color: #dee2e6;
@@ -10873,11 +10873,11 @@ html {
   position: fixed;
   z-index: 2;
   right: 0;
-  width: 250px;
+  width: 275px;
   height: 100%;
   transition: all 0.4s ease 0s;
-  transform: translateX(250px);
-  background: #1D809F;
+  transform: translateX(275px);
+  background: #E67055;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10929,8 +10929,8 @@ html {
 }
 
 #sidebar-wrapper.active {
-  right: 250px;
-  width: 250px;
+  right: 275px;
+  width: 275px;
   transition: all 0.4s ease 0s;
 }
 
@@ -10993,7 +10993,7 @@ footer.footer .social-link:hover {
 
 .map {
   height: 30rem;
-}
+} 
 .map iframe {
   pointer-events: none;
   height: 100%;
@@ -11014,7 +11014,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/imagenes/Header Melocotonero Studio.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
