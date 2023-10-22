@@ -5,6 +5,36 @@
 */
 window.addEventListener('DOMContentLoaded', event => {
 
+    const ventanas = document.querySelectorAll('.window');
+    
+    // Oculta todas las ventanas
+    ventanas.forEach(ventana => {
+        ventana.classList.remove('visible');
+    });
+
+    // Muestra la ventana por defecto (por ejemplo, ventana1)
+    document.getElementById('home').classList.add('visible');
+
+    document.getElementById("homeBT").addEventListener("click", function() {
+        showWindow("home");
+    });
+    
+    document.getElementById("endless-dreamBT").addEventListener("click", function() {
+        showWindow("endless-dream");
+    });
+    
+    function showWindow(idWindow) {
+        // Oculta todas las ventanas
+        var windows = document.getElementsByClassName("window");
+        for (var i = 0; i < windows.length; i++) {
+            windows[i].style.display = "none";
+        }
+    
+        // Muestra la ventana seleccionada
+        document.getElementById(idWindow).style.display = "block";
+    }
+
+
     const sidebarWrapper = document.getElementById('sidebar-wrapper');
     let scrollToTopVisible = false;
     // Closes the sidebar menu
