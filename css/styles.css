@@ -22,7 +22,7 @@
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
-  --bs-white: #ffffffae;
+  --bs-white: #ffffff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
@@ -10872,7 +10872,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(275px);
-  background: #E67055;
+  background: var(--bs-primary);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10953,7 +10953,7 @@ html {
 }
 
 .callout {
-  padding: 10rem 0;
+  padding: 5rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/fondos/HeaderSinNombre (1900x1268).png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -10973,7 +10973,7 @@ footer.footer {
 footer.footer .social-link {
   display: block;
   text-decoration: none;
-  height: 4rem;
+  height: 5rem;
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
@@ -11126,7 +11126,7 @@ footer.footer .social-link:hover {
 }
 
 .bg-endless-dream {
-  padding: 18rem 0;
+  padding: 14rem 0;
   background-position: center center;
   background-size: cover;
 
