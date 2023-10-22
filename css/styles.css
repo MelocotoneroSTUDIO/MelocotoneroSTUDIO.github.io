@@ -34,16 +34,16 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: rgb(225, 133, 89);
-  --bs-secondary: #ecb807;
+  --bs-primary: #000;
+  --bs-secondary: #ff7d59e0;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ecb807;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 225, 133, 89;
-  --bs-secondary-rgb: 191, 104, 82;
+  --bs-primary-rgb: 242, 167, 123;
+  --bs-secondary-rgb: 0, 0, 0;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 236, 184, 7;
@@ -10958,8 +10958,8 @@ html {
 }
 
 .callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  padding: 10rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/fondos/HeaderSinNombre (1900x1268).png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11014,7 +11014,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/imagenes/HeaderNombre (1900x1268).png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/fondos/HeaderNombre (1900x1268).png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11098,17 +11098,6 @@ footer.footer .social-link:hover {
   }
 }
 
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
 /*Custom added*/
 
 .profilePicture {
@@ -11119,4 +11108,21 @@ footer.footer .social-link:hover {
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
   margin-bottom: 2vh;
+}
+
+.contactIcons {
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+}
+
+.highlight-box {
+  padding: 4rem 0;
+  background: var(--bs-black);
+  margin-left: 10%;
+  width: 80%;
+  border-radius: 75%;
 }
